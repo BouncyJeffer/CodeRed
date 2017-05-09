@@ -3,3 +3,16 @@ description: Emergency operations.
 author: BouncyJeffer
 website: Twitter.com/BouncyJeffer
 main: BouncyJeffer\main
+commands:
+ code:
+ description: Emergency operations command.
+ usage: "/code <operation>"
+ permission: codered.admin
+permissions:
+ codered.admin:
+  description: Permission to use "/code".
+  default: op
+ codered.bypass:
+  description: Bypass any player emergency operations.
+  default: op
+ 
