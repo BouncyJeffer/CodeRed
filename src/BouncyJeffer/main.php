@@ -1,4 +1,5 @@
 <?php
+/** Being coded by BouncyJeffer, this plugin is not functional yet. Please wait to download.**/
 namespace BouncyJeffer;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
