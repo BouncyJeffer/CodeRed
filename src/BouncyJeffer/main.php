@@ -44,7 +44,7 @@ class main extends PluginBase implements Listener {
     switch($cmd){
       case "code":
       if(count($args) < 1){
-        $sender->sendMessage($this->prefix."This server is running CodeRed ".TextFormat::GRAY."BETA".TextFormat::WHITE." Try /code ? for help.");
+        $sender->sendMessage($this->prefix."This server is running CodeRed ".TextFormat::GRAY."1.0.0".TextFormat::WHITE." Try /code ? for help.");
       } else {
         switch($args[0]){
           case "kickall":
