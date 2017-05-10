@@ -1,10 +1,10 @@
 name: CodeRed
 description: Emergency operations.
 author: BouncyJeffer
-website: Twitter.com/BouncyJeffer
+website: Twitter.com/BouncyJeffer & Github.com/BouncyJeffer
 main: BouncyJeffer\main
 api: [3.0.0, 3.0.0-ALPHA5]
-version: BETA
+version: 1.0.0
 commands:
  code:
   description: Emergency operations command.
